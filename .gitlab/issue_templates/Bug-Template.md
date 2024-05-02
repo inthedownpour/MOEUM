@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:37776d9b361f1f22be49476c7863d22ddfa68f6d9faa0fe23dea87ebd7d6037a
-size 227
+# Bug Request
+## Part
+- [ ] FE
+- [ ] BE
+- [ ] AI
+
+## Description
+
+## Steps to reproduce
+
+- [ ] TODO
+- [ ] TODO
+- [ ] TODO
+
+## Addicional
+
+* 버그 사진 혹은 문제 상황 이미지가 있다면 이곳에 첨부해주세요.
