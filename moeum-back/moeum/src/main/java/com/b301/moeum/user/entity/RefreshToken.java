@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dbaa14ba7a37935a1456e341e0bbe4af5570b9795f1646ab6c6f64fbd33075d8
-size 451
+package com.b301.moeum.user.entity;
+
+import lombok.Getter;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.redis.core.RedisHash;
+
+import java.util.UUID;
+
+@Getter
+@RedisHash
+public class RefreshToken {
+
+    @Id
+    private String uuid;
+    private final String refreshToken;
+
+    public RefreshToken(UUID uuid, String refreshToken) {
+        this.uuid = uuid.toString();
+        this.refreshToken = refreshToken;
+    }
+}
