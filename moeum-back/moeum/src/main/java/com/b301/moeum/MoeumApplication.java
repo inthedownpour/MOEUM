@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ce705023fd2291018dac63524aa09ef0ee5b15149c8efbb8925c35350b7dd186
-size 317
+package com.b301.moeum;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MoeumApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(MoeumApplication.class, args);
+    }
+
+}
