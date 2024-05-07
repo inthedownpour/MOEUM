@@ -1,7 +1,3 @@
-package com.b301.moeum.user.dto.request;
-
-import org.apache.logging.log4j.core.config.plugins.validation.constraints.NotBlank;
-
-public record NicknameDto(@NotBlank(message = "UUID should not be null") String uuid,
-                          String newNickname) {
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9557de1a92aa9ea6e7f6a95a66e4e040b1ac29e622af457ebf08e8554d541b9
+size 264

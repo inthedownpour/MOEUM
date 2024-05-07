@@ -1,7 +1,3 @@
-package com.b301.moeum.user.dto.request;
-
-import org.apache.logging.log4j.core.config.plugins.validation.constraints.NotBlank;
-
-public record LoginRequestDto(@NotBlank(message = "UUID should not be null") String uuid,
-                              String email) {
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e66275ce8ee80a6b52d6fe71283a807601ef697af3ca37a56b1e52000e872364
+size 266

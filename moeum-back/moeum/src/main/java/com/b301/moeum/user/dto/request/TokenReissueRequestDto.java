@@ -1,7 +1,3 @@
-package com.b301.moeum.user.dto.request;
-
-import org.apache.logging.log4j.core.config.plugins.validation.constraints.NotBlank;
-
-public record TokenReissueRequestDto(@NotBlank(message = "UUID should not be null") String uuid,
-                                     @NotBlank(message = "Token should not be null") String token) {
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f65478dde5b01d177221a6011b611a410a486e152c68fcace4c9d1daad6d4434
+size 328
