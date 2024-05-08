@@ -1,6 +1,12 @@
 package com.b301.moeum.chord;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface ChordRepository extends JpaRepository<Chord, Long> {
+import java.util.List;
+import java.util.Optional;
+
+public interface ChordRepository extends MongoRepository<Chord, Long> {
+
+    Optional<List<Chord>> findAllByGenreAndVibe(String genre, String vibe);
+
 }
