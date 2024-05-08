@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3aca261222e72afe09bd64a1f069f86ab1ee20aa4aef401339160ec74cc7212a
-size 295
+package com.b301.moeum.music.dto;
+
+import com.b301.moeum.user.entity.User;
+
+public record SaveMusicRequest(
+        String title,
+        int bpm,
+        String musicKey,
+        String genre,
+        String vibe,
+        String artist,
+        String chordList,
+        String musicUrl
+) {
+
+}

@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:26737efc8cc035f669e7d05224dc71ddb582e166276f8dfe94588374a2b646f9
-size 303
+package com.b301.moeum.chord;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import java.util.List;
+import java.util.Optional;
+
+public interface ChordRepository extends MongoRepository<Chord, Long> {
+
+    Optional<List<Chord>> findAllByGenreAndVibe(String genre, String vibe);
+
+}
