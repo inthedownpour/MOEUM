@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:839068c3c2640afc2cb8f268e8255e8cedfaf80f82cec7f1bdffece54ea76907
-size 370
+package com.b301.moeum.user.repository;
+
+import com.b301.moeum.user.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.Optional;
+import java.util.UUID;
+
+public interface UserRepository extends JpaRepository<User, UUID> {
+
+    Optional<User> findByUuidAndResignIsNull(UUID uuid);
+
+    Optional<User> findByEmail(String email);
+}
