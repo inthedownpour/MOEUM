@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b142ecde0e727631926a122f15e05cea243b94361ca644a361247fc91293f8f6
-size 484
+package com.b301.moeum.music.dto;
+
+import com.b301.moeum.global.StringListConverter;
+import jakarta.persistence.Convert;
+
+import java.util.List;
+
+public record MusicResponse(
+        int bpm,
+                String musicKey,
+                String genre,
+                String vibe,
+                String title,
+                String artist,
+                String musicUrl,
+                String imageUrl,
+                String videoUrl,
+                String chordList
+
+) {
+}
