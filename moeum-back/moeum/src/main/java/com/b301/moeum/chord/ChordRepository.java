@@ -7,6 +7,6 @@ import java.util.Optional;
 
 public interface ChordRepository extends MongoRepository<Chord, Long> {
 
-    Optional<List<Chord>> findAllByGenreAndVibe(String genre, String vibe);
+    Optional<List<Chord>> findAllByVibe(String vibe);
 
 }

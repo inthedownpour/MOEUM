@@ -1,16 +1,16 @@
 package com.b301.moeum.music.dto;
 
-import com.b301.moeum.user.entity.User;
 
 public record SaveMusicRequest(
         String title,
-        int bpm,
         String musicKey,
-        String genre,
+        int bpm,
         String vibe,
+        String instrument,
         String artist,
         String chordList,
-        String musicUrl
+        String musicUrl,
+        String mp3Url
 ) {
 
 }
