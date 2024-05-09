@@ -1,8 +1,10 @@
 package com.b301.moeum.music.dto;
 
-import java.util.List;
-
-public record CreateMusicRequest(
+public record  CreateMusicRequest(
+        int bpm,
+        String musicKey,
+        String vibe,
+        String instrument,
         String chordList
 ) {
 }
