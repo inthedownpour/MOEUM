@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bb54fabe9f0e590f997b118ffe1c8a5594bac0f6e3e2eb2a2198cc3c305b68c0
-size 253
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+
+const ACCESS_TOKEN_KEY = 'ACCESS_TOKEN';
+const REFRESH_TOKEN_KEY = 'REFRESH_TOKEN';
+const KAKAO_APP_KEY = '8faa962094a0bc6f23231723bf20dd64';
+
+const storage = FlutterSecureStorage();
+const String baseUrl = 'https://k10b301.p.ssafy.io/api/v1/';
