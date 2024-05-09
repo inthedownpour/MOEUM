@@ -1,21 +1,3 @@
-package com.b301.moeum.music.dto;
-
-import jakarta.annotation.Nullable;
-import org.springframework.web.multipart.MultipartFile;
-
-public record EditSaveMusicRequest(
-        MultipartFile midiFile,
-        MultipartFile mp3File,
-        @Nullable
-        MultipartFile imageFile,
-        String title,
-        String musicKey,
-        int bpm,
-        String vibe,
-        String instrument,
-        String artist,
-        String chordList,
-        String imageUrl
-
-) {
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b18c3b6df1604ba38db8a4aeeadb05287767c02717a45af57724158a57d36c0b
+size 470
