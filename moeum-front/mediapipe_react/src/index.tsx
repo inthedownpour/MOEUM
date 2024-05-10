@@ -1,17 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import EditMusic from './MidiComponent';
-
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-reportWebVitals();
+version https://git-lfs.github.com/spec/v1
+oid sha256:fabdccec2574afc5b9a15cc911e53987fec61a31bee06d08af083ff05b620e20
+size 383
