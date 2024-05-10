@@ -1,14 +1,3 @@
-package com.b301.moeum.music.repository;
-
-import com.b301.moeum.music.entity.MusicInfo;
-import com.b301.moeum.user.entity.User;
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import java.util.List;
-
-public interface MusicInfoRepository extends JpaRepository<MusicInfo, Long> {
-
-    List<MusicInfo> findAllByUserId(User userId);
-
-    void deleteByUserIdAndMusicInfoId(User userId, Long musicInfoId);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:688eaf0b01a39732229d3e32c7d8357c5bc9fa94b9c8436d1272e14808501b64
+size 457
