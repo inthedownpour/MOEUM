@@ -1,20 +1,3 @@
-import 'package:flutter/material.dart';
-
-class MusicPlayerProvider with ChangeNotifier {
-  // TODO : 플레이 상태면 노래 나올 수 있도록 설정
-  int _musicIndex = 0;
-  bool _isPlaying = false;
-
-  int get musicIndex => _musicIndex;
-  bool get isPlaying => _isPlaying;
-
-  void setMusicIndex(int musicIndex) {
-    _musicIndex = musicIndex;
-    notifyListeners();
-  }
-
-  void setIsPlaying(bool isPlaying) {
-    _isPlaying = isPlaying;
-    notifyListeners();
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:313798195900694950545319ac46872191cc2f3b0fccea6ea3c4f6eefc25867f
+size 2301
