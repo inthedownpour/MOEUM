@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6cc099a541376fac3ae01a86968ca92e75b00341f6c211d192c58d0ba0afa93a
-size 17592
+import React, { useRef } from 'react';
+import { BrowserRouter as Router, Route, Routes, Navigate, } from 'react-router-dom';
+import Record from './Record';
+import MidiComponent from './MidiComponent';
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+
+        <Route path="/" element={<Navigate to="/record" />} />
+        <Route path="/record" element={<Record />} />
+        <Route path="/edit" element={<MidiComponent />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
