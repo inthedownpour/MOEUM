@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e1cb5609e9ec8853efef9da362d4c47f2fc47db4edddeb9da2d36f7630cd53fe
-size 303
+.confirm-container {
+    align-items: center;
+    justify-items: center;
+}
+
+.nowplay {
+    width: 40%;
+}
+
+.ConfirmButton {
+    width: 25%;
+    height: 10%;
+    background-color: coral;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 16;
+    font-weight: 200;
+}
