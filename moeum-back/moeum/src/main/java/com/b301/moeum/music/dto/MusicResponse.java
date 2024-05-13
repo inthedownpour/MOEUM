@@ -13,7 +13,8 @@ public record MusicResponse(
         String videoUrl,
         String mp3Url,
         String chordList,
-        int views
+        int views,
+        Boolean isPublic
 
 ) {
 }
