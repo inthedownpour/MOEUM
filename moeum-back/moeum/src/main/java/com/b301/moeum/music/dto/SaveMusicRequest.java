@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7c59ecfbee0ed7e08db7af0e5dafc8dd4c02a64d9d325ac725e134b68a8c1835
-size 373
+package com.b301.moeum.music.dto;
+
+
+import org.springframework.web.multipart.MultipartFile;
+
+public record SaveMusicRequest(
+        MultipartFile imageFile,
+        String title,
+        String musicKey,
+        int bpm,
+        String vibe,
+        String instrument,
+        String artist,
+        String chordList,
+        String musicUrl,
+        String mp3Url
+) {
+
+}
