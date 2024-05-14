@@ -1,6 +1,7 @@
 .confirm-container {
     align-items: center;
     justify-items: center;
+    border-color: black;
 }
 
 .nowplay {
