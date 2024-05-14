@@ -9,12 +9,12 @@
 }
 
 .ConfirmButton {
-    width: 25%;
-    height: 10%;
+    width: 40px;
+    height: 25px;
     background-color: coral;
     text-align: center;
     align-items: center;
     justify-items: center;
-    font-size: 16;
+    font-size: 24;
     font-weight: 200;
 }
