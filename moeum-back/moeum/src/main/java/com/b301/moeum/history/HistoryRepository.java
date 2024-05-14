@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c17a4096efe42c55f57f5a9b83bf08d866134694f3d604d963b23d246f91db9f
-size 436
+package com.b301.moeum.history;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import java.util.List;
+
+public interface HistoryRepository extends MongoRepository<History, String> {
+
+
+    List<History> findTop20ByUserUuidAndIsPublicTrueOrderByDateTimeDesc(String userUuid);
+
+    void deleteByUserUuidAndMusicInfoId(String userUuid, Long musicInfoId);
+
+    List<History> findAllByMusicInfoId(Long musicInfoId);
+
+
+}

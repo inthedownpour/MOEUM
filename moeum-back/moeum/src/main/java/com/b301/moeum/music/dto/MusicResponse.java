@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:40908031be9a141e517706cd563618204ba4c98fd9dec2da309c69c0bd48c492
-size 400
+package com.b301.moeum.music.dto;
+
+public record MusicResponse(
+        Long musicInfoId,
+        String musicKey,
+        int bpm,
+        String vibe,
+        String instrument,
+        String title,
+        String artist,
+        String musicUrl,
+        String imageUrl,
+        String videoUrl,
+        String mp3Url,
+        String chordList,
+        int views,
+        Boolean isPublic
+
+) {
+}
