@@ -1,0 +1,20 @@
+.confirm-container {
+    align-items: center;
+    justify-items: center;
+    border-color: black;
+}
+
+.nowplay {
+    width: 40%;
+}
+
+.ConfirmButton {
+    width: 25%;
+    height: 10%;
+    background-color: coral;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 16;
+    font-weight: 200;
+}

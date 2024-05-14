@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:81688db5d856e6d96d0a4b67bbe4c66dace6febe32ed109d2d3ff0bb8e15b9af
-size 376
+import 'package:flutter/material.dart';
+
+class TabInfo {
+  final IconData icon;
+  final String label;
+
+  TabInfo({
+    required this.icon,
+    required this.label,
+  });
+}
+
+var TABS = [
+  TabInfo(icon: Icons.queue_music_rounded, label: '내 노래'),
+  TabInfo(icon: Icons.piano_rounded, label: '노래 만들기'),
+  TabInfo(icon: Icons.settings_rounded, label: '설정')
+];
