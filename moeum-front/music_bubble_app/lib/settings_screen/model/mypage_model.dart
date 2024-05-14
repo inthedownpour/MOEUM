@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:044fc21f86128be51b8e5c7083e3941b5e47ec5accdfe991f5204e0e6d387d2a
-size 473
+import 'package:json_annotation/json_annotation.dart';
+
+part 'mypage_model.g.dart';
+
+@JsonSerializable()
+class MyPageModel {
+  final String email;
+  final String nickname;
+  final String profileImgUrl;
+
+  MyPageModel({
+    required this.email,
+    required this.nickname,
+    required this.profileImgUrl,
+  });
+
+  factory MyPageModel.fromJson(Map<String, dynamic> json) =>
+      _$MyPageModelFromJson(json);
+
+  Map<String, dynamic> toJson() => _$MyPageModelToJson(this);
+}

@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fe6b9c0778d2391fc71be239d4368e7b443f3e8990bbabde09aaa2a14b1fc9f5
-size 404
+import 'package:flutter/material.dart';
+import 'package:music_bubble_app/config/palette.dart';
+
+Widget menuButton(BuildContext context, Function function, String text,
+    {Color color = Palette.touchableFont}) {
+  return TextButton(
+    onPressed: () {
+      function();
+    },
+    child: Text(text,
+        style:
+            TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: color)),
+  );
+}

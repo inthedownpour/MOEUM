@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:64570f034786ad4cec74fd848048fafc1761a0c35231d08741bc05837df1ae7f
-size 199
+import 'package:flutter/material.dart';
+
+Widget titleWidget(String title) {
+  return Text(
+    title,
+    style: const TextStyle(
+      fontSize: 30,
+      fontWeight: FontWeight.bold,
+    ),
+  );
+}
