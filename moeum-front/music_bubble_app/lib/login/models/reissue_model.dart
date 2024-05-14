@@ -1,17 +1,3 @@
-import 'package:json_annotation/json_annotation.dart';
-
-part 'reissue_model.g.dart';
-
-@JsonSerializable()
-class ReissueModel {
-  final String accessToken;
-
-  ReissueModel({
-    required this.accessToken,
-  });
-
-  factory ReissueModel.fromJson(Map<String, dynamic> json) =>
-      _$ReissueModelFromJson(json);
-
-  Map<String, dynamic> toJson() => _$ReissueModelToJson(this);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dee036d28a4c17c45bbc55d8ed1876a15862291cffa6183a82838e9c56fdd3f8
+size 375
