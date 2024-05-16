@@ -1,28 +1,3 @@
-.edit-music {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #FFFFE0;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.now-play,
-.speed-control,
-.tone-control,
-.music-sheet,
-.instrument-selector {
-    margin: 10px 0;
-}
-
-.note {
-    padding: 5px;
-    margin: 0 2px;
-    background-color: #000;
-    color: #fff;
-    display: inline-block;
-}
-
-input[type="range"] {
-    width: 200px;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:85e80a64c3edbe96f104f8ae9e420867884f6fb394b656369ebf9c14b74f2b69
+size 6365
