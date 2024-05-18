@@ -7,11 +7,11 @@
     right: 0;
     z-index: 1000;
     padding: 10px;
-
 }
 
 .progress-slot {
     width: 60px;
     height: 60px;
     margin-right: 20px;
+    font-size: small;
 }
