@@ -1,12 +1,3 @@
-import 'package:flutter/material.dart';
-
-class MusicSwipeProvider with ChangeNotifier {
-  int _musicIndex = 1;
-
-  int get musicIndex => _musicIndex;
-
-  void setMusicIndex(int index) {
-    _musicIndex = index;
-    notifyListeners();
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a14ffaa035a5e72c1d959d2477657d2ef1c97069c27970f93763b642a548e0d
+size 238
