@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2aefb8d4459482b85916dd2d9efe27c2b91c8d7108cb5c9eb11187f36b06ab79
-size 244
+.progress-bar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 30;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 10px;
+}
+
+.progress-slot {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    font-size: small;
+}
