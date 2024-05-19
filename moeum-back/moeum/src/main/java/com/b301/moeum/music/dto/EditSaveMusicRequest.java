@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f167966bebe9edeb3b56e98fec2eea4bcc2014b6a6fc9681d674d574ba2c9d32
-size 439
+package com.b301.moeum.music.dto;
+
+import jakarta.annotation.Nullable;
+import org.springframework.web.multipart.MultipartFile;
+
+public record EditSaveMusicRequest(
+        MultipartFile midiFile,
+        @Nullable
+        MultipartFile imageFile,
+        String title,
+        String musicKey,
+        int bpm,
+        String vibe,
+        String instrument,
+        String artist,
+        String chordList,
+        String imageUrl
+
+) {
+}
