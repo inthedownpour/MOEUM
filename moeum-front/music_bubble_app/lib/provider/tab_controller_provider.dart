@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:121fc50d8a4e3995418825771dd8d7c271add132b11f7ee8ba00a19ea44021a4
-size 540
+import 'package:flutter/material.dart';
+
+class TabControllerProvider with ChangeNotifier {
+  late TabController controller;
+
+  void initialize(TickerProvider vsync, int length) {
+    controller = TabController(length: length, vsync: vsync);
+  }
+
+  void switchTab(int index) {
+    if (controller.indexIsChanging || controller.index != index) {
+      controller.animateTo(index);
+      notifyListeners();
+    }
+  }
+
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+}
