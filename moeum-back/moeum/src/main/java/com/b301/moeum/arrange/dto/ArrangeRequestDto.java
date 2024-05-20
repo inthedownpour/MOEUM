@@ -1,7 +1,3 @@
-package com.b301.moeum.arrange.dto;
-
-import org.springframework.web.multipart.MultipartFile;
-
-public record ArrangeRequestDto(String title, String musicKey, int bpm, String vibe, String instrument,
-                                String artist, String chordList, String imageUrl) {
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e702dbf93310f7770bbfa31c0875ebbef6fb220e90fdb716c088d1bc6400c32
+size 284
