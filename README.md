@@ -1,3 +1,4 @@
+
 # <img src="./playstore.png" alt="logo" width="60" height="60" style="border-radius: 100%;"> Moeum
 **모음(Moeum, 모션인식 음악생성 어플리케이션)** <br>
 **Motion Recognition Music Creation Application**
@@ -65,17 +66,21 @@ It enhances children's musical literacy, creates music through motion, and inspi
 - You can listen to the music created by users by arranging them by instrument.
 - Music is listed in two order of popularity and random.
 
+![public_music_screen](/uploads/35bad43609bfb443c1d0b8e744b709d9/public_music_screen.gif)
 
 ### My Music
 - You can listen to the music made by yourself.
 
+![my_music_screen](/uploads/304e66c97c001a719bc6d78747490885/my_music_screen.gif)
 
+![music_player_play](/uploads/7cea46a2ec12212650b84ee58dc20921/music_player_play.gif)
 
 <br>
 
 ### Making Music
 - Choose the number of bars(= length of the music), tempos(bpm), atmosphere, and instrument.
 
+![making_music_setting_screen](/uploads/19822736dad70817c81333b36c5c82af/making_music_setting_screen.gif)
 
 <br>
 
@@ -90,6 +95,7 @@ It enhances children's musical literacy, creates music through motion, and inspi
 
 - Pose detection is based on pose landmarker.
 
+![pose_landmarker](/uploads/817f616575adfa2846c688b0afb126bd/pose_landmarker.gif)
 
 <br>
 
